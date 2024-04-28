@@ -1,3 +1,4 @@
+<?php 
 
 <!-- Naming:  Variable names in PHP always start with a dollar sign ($) followed by the name you choose. The name should be descriptive and follow these rules:
 
@@ -10,27 +11,27 @@ Data Holder: Variables can hold various types of data such as numbers, text, arr
 Dynamic Nature: One of the flexible aspects of PHP variables is that you don't need to declare their type explicitly. PHP dynamically determines the data type based on the value assigned to the variable.
 Symbolic Representation: In PHP, variables are represented by a dollar sign ($) followed by the variable name. For instance, $username, $count, $price, etc.
 -->
-#Assigning and Displaying Text:
+# Assigning and Displaying Text:
 $name = "Alice";
 echo "Hello, $name!"; // Output: Hello, Alice!
 
-#Assigning and Displaying Numbers:
+# Assigning and Displaying Numbers:
 $age = 25;
 echo "She is $age years old."; // Output: She is 25 years old.
 
-#Mathematical Operations with Variables:
+# Mathematical Operations with Variables:
 $num1 = 10;
 $num2 = 5;
 $sum = $num1 + $num2;
 echo "The sum of $num1 and $num2 is $sum."; // Output: The sum of 10 and 5 is 15.
 
-#Concatenation of Variables:
+# Concatenation of Variables:
 $firstName = "John";
 $lastName = "Doe";
 $fullName = $firstName . " " . $lastName;
 echo "Full Name: $fullName"; // Output: Full Name: John Doe
 
-#Variable Reassignment:
+# Variable Reassignment:
 $num = 10;
 echo "Original Number: $num"; // Output: Original Number: 10
 $num = 20;
